@@ -23,6 +23,6 @@ public class Main extends Application {
         primaryStage.show();
 
         ScreenManager screenManager = new ScreenManager(root,primaryStage);
-        //screenManager.changeScreenToMenuScreen();
+        screenManager.changeScreenToMenuScreen();
     }
 }
